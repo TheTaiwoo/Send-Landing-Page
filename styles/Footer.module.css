@@ -1,0 +1,152 @@
+.footer{
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  font-size: 10pt;
+  line-height: 2.5;
+}
+.logo{
+  margin-left: -.4rem;
+}
+.footer h2{
+  font-weight: 600;
+  font-size: 11pt;
+}
+.contactUs{
+  margin-top: 3rem;
+}
+.company{
+  margin-top: 2rem;
+}
+
+.earnWithSendme{
+  margin-top: 2rem;
+}
+
+.getApp{
+  margin-top: 2rem;
+}
+.store{
+  display: flex;
+}
+.store img{
+  border-radius: 4px;
+  margin-right: .5rem;
+}
+
+.socialMedia{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.social{
+  border: 1px solid #1b1b1b;
+  border-radius: 50%;
+  margin-right: 1rem;
+  width: fit-content
+}
+
+.subscribe{
+  margin-top: 2rem;
+  background-color: rgb(71, 66, 66);
+  padding: 1rem;
+  border-radius: 5px;
+}
+.subInput{
+  background-color: #d7d9e4;
+  border-radius: 5px 0px 0 5px;
+  color: black;
+  height:50px;
+  max-width: 200px;
+}
+.subBtn{
+  background-color: white;
+  height: 50px;
+  width: 45px;
+  padding: 0px 16px 3.2px;
+  border-radius: 0px 5px 5px 0px;
+}
+.subscribe p{
+  margin-top: 1rem;
+  line-height: 1.2;
+  color:  rgb(247, 240, 240);
+}
+.end{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.end a{
+  margin-right: 1.5rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .footer{
+    font-size: 12pt;
+  }
+  .footer h2{
+    font-size: 17pt;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .footer{
+    padding: 5rem 5.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .row{
+    display: flex;
+    width: 60%;
+    order: 1;
+  }
+  .contactUs{
+    margin-right: 1rem;
+    margin-top: 2rem;
+    width: 12rem;
+  }
+  .company{
+    margin-right: 3rem;
+  }
+  .subscribe{
+    position: absolute;
+    right: 3.7%;
+    width: 350px;
+    margin-top: 7.5rem;
+    background-color: rgb(48, 47, 47);
+    padding: 1.5rem 2.5rem 2.5rem;
+    order: 2;
+  }
+  .subBtn{
+    padding: 10px 20px 14px;
+  }
+  .getApp{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    order: 3;
+  }
+  .socialMedia{
+    position: absolute;
+    right: 5%;
+    bottom: 3.5%;
+  }
+  .end{
+    position: absolute;
+    right: 20%;
+    bottom: 3.3%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .subscribe{
+    right: 8%;
+  }
+  .socialMedia{
+   right: 8%;
+  }
+  .end{
+    right: 21.9%;
+  }
+}

@@ -1,0 +1,49 @@
+.whoWeAre{
+  margin: 2rem 0 0rem;
+  font-family: Mulish;
+  padding: 7rem auto;
+  text-align: center;
+}
+.whoWeAre img{
+  margin: auto;
+}
+.box{
+  padding-bottom: 3rem;
+}
+.mainHeading{
+  padding: 3rem 5% 1rem;
+  font-size: 35pt;
+  font-weight: 800;
+}
+.subHeading{
+  padding: .5rem 5%;
+  font-size: 25pt;
+  font-weight: 800;
+}
+.para{
+  padding: .5rem 5%;
+  font-size: 12pt;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .whoWeAre{
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+ .para{
+  font-size: 18pt;
+ }
+}
+
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  .whoWeAre, .whoWeAre .col{
+    background-color: rgb(20, 19, 19);
+    color: white;
+  }
+
+}
